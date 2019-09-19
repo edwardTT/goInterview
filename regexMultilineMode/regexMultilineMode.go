@@ -18,5 +18,5 @@ func main() {
 	pattern := regexp.MustCompile("(?m:^0(0|\n)*0)")
 	s = pattern.ReplaceAllString(s, "0")
 	fmt.Println(s)
-	fmt.Print(a "test")
+	fmt.Print("test")
 }
